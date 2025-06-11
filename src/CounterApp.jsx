@@ -5,7 +5,8 @@ function CounterApp() {
 
   return (
     <div style={styles.container}>
-      <h1 style={styles.counterText}>Count: {count}</h1>
+      <h1>Counter App</h1>
+      <h2 style={styles.counterText}>Count: {count}</h2>
       <div style={styles.buttonContainer}>
         <button onClick={() => setCount(count + 1)}>Increment</button>
         <button onClick={() => setCount(count - 1)}>Decrement</button>
